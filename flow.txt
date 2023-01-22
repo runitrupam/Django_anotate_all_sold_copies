@@ -2,7 +2,14 @@ python -m pip install -U pip --user
 pip install virtualenv
 virtualenv env       
 .\env\Scripts\activate.ps1
+OR ,
+source rr_venv/bin/activate
 
+TO UNDERSTAND THE WORKING OF annotate
+
+FIRST GO TO MODELS.PY AND THEN TO VIEW.PY
+author is a foreign key of book .
+So I want to know all the total copies of book sold for a particular author .
 
 pip install gunicorn # web server used for heroku 
 # django run server
